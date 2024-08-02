@@ -16,12 +16,12 @@
 
 ## 配置文件(config.yml)
 ```yaml
-  # 填写all代表所有命令
-
-  # 需要隐藏的命令
+  # 需要隐藏的命令(填写all代表隐藏所有命令)
   hiddencommands:
-    - all
+    - examplecommand1
+    - examplecommand2
 
   # 需要显示的命令
   showcommands:
-    - exp1
+    - examplecommand3
+    - examplecommand4

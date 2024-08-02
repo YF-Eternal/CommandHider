@@ -1,8 +1,9 @@
-# 填写all代表所有命令
+# 需要隐藏的命令(填写all代表隐藏所有命令)
 hiddencommands:
   - examplecommand1
   - examplecommand2
 
+# 需要显示的命令
 showcommands:
   - examplecommand3
   - examplecommand4
