@@ -1,0 +1,8 @@
+# 填写all代表所有命令
+hiddencommands:
+  - examplecommand1
+  - examplecommand2
+
+showcommands:
+  - examplecommand3
+  - examplecommand4

@@ -1,0 +1,13 @@
+name: CommandHider
+version: 1.0
+main: org.commandhider.CommandHider
+author: YF_Eternal
+description: A plugin to hide certain commands from tab completion.
+api-version: 1.8.8
+depend:
+  - ProtocolLib
+commands:
+  commandhider:
+    description: Reload the CommandHider configuration.
+    usage: /commandhider reload
+    permission: commandhider.reload
