@@ -1,12 +1,13 @@
 # CommandHider
-[CommandHider]() 是一个 Minecraft 服务器(Spigot)的隐藏命令TAB补全插件。它工作在白名单模式下。
-* 由于一些原因 CommandHider 仅支持 Minecraft 1.8.x - 1.19.x 版本。
-* 推荐和[CommandBlocker]()搭配使用。
+[CommandHider]() 是一个 Minecraft 服务器(Spigot)的隐藏命令TAB补全插件。它工作可以在白名单/黑名单模式下。
+* 使用此插件需安装 [ProtocolLib](https://github.com/dmulloy2/ProtocolLib)。
+* 由于一些原因 [CommandHider]() 仅支持 Minecraft 1.8.x - 1.18.x 版本。
+* 推荐和 [CommandBlocker](https://github.com/YF-Eternal/CommandBlocker) 搭配使用。
 
 ## 特性
 
 * 并非所有命令都可以通过让玩家没有使用该命令的权限来从TAB列表中隐藏。
-* 配置中列出的命令将不会出现在TAB列表中，也可以让某些命令出现(就算没有这个命令)。
+* 配置中列出的命令将不会出现在TAB列表中，也可以让某些命令出现(就算没有这个命令 *仅支持 1.12.x 及以下)。
 * 1.13+仅支持屏蔽一级命令
 
 ```diff

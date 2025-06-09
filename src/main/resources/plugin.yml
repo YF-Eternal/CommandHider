@@ -1,5 +1,5 @@
 name: CommandHider
-version: 1.0
+version: 1.1
 main: org.commandhider.CommandHider
 author: YF_Eternal
 description: A plugin to hide certain commands from tab completion.
